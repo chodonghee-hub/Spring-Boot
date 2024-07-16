@@ -1,0 +1,18 @@
+package com.eureka.myspring;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+
+@Controller
+public class NumberGuessController {
+
+	@GetMapping("/check_num")
+	@ResponseBody
+	public String check_num(@RequestParam(value="num") int num) {
+		return "받은 값 : "+num;
+	}
+	
+}

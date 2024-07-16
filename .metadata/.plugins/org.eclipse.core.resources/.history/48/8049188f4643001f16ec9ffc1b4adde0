@@ -1,0 +1,5 @@
+package com.eureka.myspring;
+
+public class NumberGuessController {
+
+}

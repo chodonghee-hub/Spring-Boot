@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>숫자 맞추기 게임(Ajax, Spring)</title>
+</head>
+<body>
+	<h1>숫자 맞추기 게임(Ajax, Spring)</h1>
+	<div class="game">
+		<label>1 ~ 100 사이 숫자를 입력하세요</label>
+		<input type='text' id='num'> <br>
+		<button id='check_btn'>정답 확인</button>
+		<div>결과 확인:<span id='result'></span></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring01/src/main/resources/static/11.jQuery-ajax-json.html&apos; to &apos;jqa.html&apos;" description="Rename resource &apos;11.jQuery-ajax-json.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/static/11.jQuery-ajax-json.html" name="jqa.html" stamp="1721111939975" updateReferences="true"/>
+</session>

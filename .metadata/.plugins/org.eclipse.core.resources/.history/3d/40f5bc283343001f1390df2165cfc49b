@@ -1,0 +1,21 @@
+package com.eureka.myspring;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+
+// 반드시 해줘야하는 기능 
+@Controller
+public class HelloController {
+	
+	
+	// Get 방식, ResponseBody => 화면에 출력 ( 없으면 파일명으로 출력 )  
+	@GetMapping("/hello")
+	@ResponseBody
+	public String myHello() {
+		return "Hello";
+	}
+	
+}
